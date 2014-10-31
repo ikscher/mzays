@@ -1,0 +1,104 @@
+
+
+.input_list li .name2 {
+background: url(../images/logo_user.png) center center no-repeat #f0f0f0;
+height: 38px;
+}
+
+.input_list li  .focus {
+background: url(../images/logo_user.png) center center no-repeat #4ec1ff;
+}
+
+.input_list li .name3 {
+background: url(../images/locked.png) center center no-repeat #f0f0f0;
+height: 38px;
+}
+
+.input_list li .focus2 {
+background: url(../images/locked.png) center center no-repeat #4ec1ff;
+}
+
+.input_list .name {
+width: 59px;
+line-height: 38px;
+background: #f5f5f5;
+color: #696969;
+font-size: 14px;
+text-align: center;
+display: inline-block;
+border-right: 1px solid #cccccc;
+border-radius: 5px 0 0 5px;
+}
+
+.input_list li {
+height: 38px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+position: relative;
+}
+
+.input_list li .w_180 {
+width: 180px;
+}
+.input_list li input {
+width: 206px;
+height: 36px;
+padding-left: 5px;
+border: none;
+background: none;
+color: #cacaca;
+font-size: 14px;
+}
+
+.input_list li label input {
+width: 20px;
+height: 18px;
+background: none;
+outline: none;
+vertical-align: middle;
+margin-right: 8px;
+}
+
+.forg_psw {
+font-size: 14px;
+color: #4ec1ff;
+}
+
+.ui-page-theme-a a{font-weight:normal;}
+
+.fr {
+float: right;
+}
+
+.txt_off {
+float: right;
+background: url(../images/txt_off.png) left top no-repeat;
+width: 18px;
+height: 12px;
+margin: 12px 10px 0 0;
+}
+
+.nfb{font-weight:normal;font-size:12px;color:#666;margin-left:10px;}
+
+
+.mb15 {
+margin-bottom: 15px;
+}
+
+a{text-decoration:none;}
+li{list-style:none;}
+.fl {
+float: left;
+}
+.clearfix {
+zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+display: table;
+content: "";
+line-height: 0;
+clear:both;
+}
+ul{-webkit-padding-start: 0;}
+.dn{display:none;}
+#warning p{font-size:13px;color:#666;}
