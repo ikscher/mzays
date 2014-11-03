@@ -1,0 +1,13 @@
+#search .ui-content{padding:0px;}
+.center{text-align:center;}
+.left{text-align:left;}
+.right{text-align:right;}
+.where{font-size:12px;}
+.ui-mobile label,legend{font-size:12px;}
+li{list-style:none;}
+.form_search  div{height:33px;line-height:33px;}
+.form_search  input{width:50px;}
+.w40{width:40px;}
+.ui-btn{font-size:12px;}
+.ui-select span{font-weight:normal;}
+

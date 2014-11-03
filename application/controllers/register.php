@@ -5,6 +5,7 @@ class Register extends CI_Controller {
         parent::__construct();
 		$this->lang->load('common');
         $this->load->helper('url');
+		$this->load->library('user');
     }
 	/**
 	 * Index Page for this controller.
@@ -25,10 +26,8 @@ class Register extends CI_Controller {
 	//注册页面
 	public function index()
 	{
-	    $this->load->model('user');
-        $rows=$this->user->getUser();
-        $data['result']=$rows;
-		$this->load->view('register',$data);
+	    if($this->user->isLogged()) header("location:/userinfo/index");
+		$this->load->view('register');
 	}
 	
 	//获取验证码
